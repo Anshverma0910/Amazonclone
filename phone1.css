@@ -1,0 +1,210 @@
+/* navigation */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items:normal; */
+    height: 8.5rem;
+}
+
+.nav-logo {
+    height: 2rem;
+    width: 4rem;
+    position: absolute;
+    top: 4px;
+    left: 1px;
+
+}
+
+.nav-address {
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    font-size: small;
+}
+
+.add-1 {
+    font-size: 10px;
+}
+
+.add-2 {
+    font-size: 12px;
+}
+
+.lang-select option p {
+    font-size: 12px;
+}
+
+.nav-search {
+    width: 100%;
+    height: 41px;
+    margin-top: -17px;
+    ;
+}
+
+.ser-select,
+.ser-input,
+.ser-icon {
+    height: 28px;
+    font-size: 12px
+}
+
+.lang {
+    position: absolute;
+    top: 6px;
+    font-size: small;
+    right: 7rem;
+}
+
+.lang select {
+    padding: 0px;
+    height: 27px;
+}
+
+.sign-sec {
+    font-size: 12px;
+}
+
+.nav-signin span {
+    font-size: 10px;
+}
+
+.nav-signin {
+    font-size: smaller;
+    left: 2px;
+    position: absolute;
+    margin-top: 62px;
+}
+
+.nav-return span {
+    font-size: 10px;
+}
+
+.nav-return {
+    margin-top: 62px;
+    font-size: smaller;
+    position: absolute;
+    /* margin-top: 92px; */
+    left: 45%;
+}
+
+.cart {
+    margin-top: 62px;
+    font-size: 12px;
+    position: absolute;
+    right: 12px;
+    /* margin-top: 92px; */
+}
+
+.cart i {
+    font-size: 18px;
+}
+
+/* panel */
+
+.panel {
+    display: flex;
+    width: 100%;
+    height: 70px;
+}
+
+.panel-all {
+    font-size: 12px;
+    left: 6px;
+    top: 139px;
+    position: absolute;
+}
+
+.panel-ops {
+    display: flex;
+    top: 139px;
+    font-size: 12px;
+    position: absolute;
+    left: 16%;
+
+}
+
+.panel-deals {
+    text-align: center;
+    font-size: 14px;
+    /* left: 35%; */
+    top: 178px;
+    position: absolute;
+}
+
+/* hero section */
+.hero-sec {
+    display: flex;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-color: #464646;
+    height: 15rem;
+}
+
+.hero-msg {
+    font-size: 10px;
+    height: 35px;
+}
+
+.shop-section {
+    grid-template-columns: repeat(2, 48%);
+    /* grid-template-rows: repeat(1, 92%); */
+}
+
+.box {
+    height: 275px;
+}
+
+.box-content {
+    font-size: smaller;
+    margin: -6px 1rem;
+}
+
+.box-img {
+    height: 141px;
+}
+
+.foot-panel1 a {
+    font-size: smaller;
+}
+
+.foot-panel2 {
+    height: 16rem;
+}
+
+.foot-panel2 ul {
+    font-size: 8px;
+    padding: 0px 3px;
+    margin: 4px 3px;
+}
+
+.foot-panel3 {
+    height: 30px;
+}
+
+.logo {
+    height: 38px;
+    width: 62px;
+}
+
+.foot-panel4 {
+    height: 70px;
+}
+
+.pages {
+    padding-top: 6px;
+}
+
+.pages a {
+    font-size: 9px;
+}
+
+.copyright {
+    font-size: 9px;
+}
